@@ -20,5 +20,9 @@ public class EnemyAI : MonoBehaviour
     {
         // Set destination
         nma.SetDestination(player.transform.position);
+        if(true)
+        {
+
+        }
     }
 }
