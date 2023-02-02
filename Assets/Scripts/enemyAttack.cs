@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyAttack : MonoBehaviour
+public class EnemyAttack : MonoBehaviour
 {
 
     [SerializeField] float damageAmount = 30f;
@@ -12,7 +12,7 @@ public class enemyAttack : MonoBehaviour
     {
         if(player.CompareTag("Player"))
         {
-            player.GetComponent<playerHealth>().TakeDamage(damageAmount);
+            player.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
         }
     }
 

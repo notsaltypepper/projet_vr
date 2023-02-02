@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyHealth : MonoBehaviour
+public class EnemyHealth : MonoBehaviour
 {
 
     [SerializeField] float health = 4f;
@@ -11,11 +11,6 @@ public class enemyHealth : MonoBehaviour
     // Update is called once per frame
     public void TakeDamage()
     {
-        health -= 1;
-
-        if(health <= 0)
-        {
             Destroy(gameObject);
-        }
     }
 }
