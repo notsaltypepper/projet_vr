@@ -1047,8 +1047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce38f31e18b57734891e6df8e67167c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
 --- !u!1 &542601046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,6 +3148,10 @@ PrefabInstance:
     - target: {fileID: 1787915350608907351, guid: 0b30e3f4dc4d56f44b3b2a0a75606d43, type: 3}
       propertyPath: m_Name
       value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7734837051890829517, guid: 0b30e3f4dc4d56f44b3b2a0a75606d43, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b30e3f4dc4d56f44b3b2a0a75606d43, type: 3}
